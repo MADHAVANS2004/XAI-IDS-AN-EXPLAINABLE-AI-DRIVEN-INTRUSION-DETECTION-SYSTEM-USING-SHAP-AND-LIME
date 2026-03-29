@@ -1,0 +1,119 @@
+[
+  {
+    "timestamp": "2026-03-21 00:34:20",
+    "user": "admin",
+    "label": "ATTACK",
+    "severity": "CRITICAL",
+    "confidence": 100.0,
+    "model": "Decision Tree",
+    "top_feature": "protocol_type"
+  },
+  {
+    "timestamp": "2026-03-21 00:40:59",
+    "user": "admin",
+    "label": "ATTACK",
+    "severity": "CRITICAL",
+    "confidence": 100.0,
+    "model": "Decision Tree",
+    "top_feature": "protocol_type"
+  },
+  {
+    "timestamp": "2026-03-26 21:28:02",
+    "user": "system",
+    "src_ip": "10.10.99.14",
+    "dst_ip": "192.168.1.18",
+    "label": "DoS",
+    "severity": "HIGH",
+    "confidence": 71.0,
+    "model": "Random Forest",
+    "top_feature": "service"
+  },
+  {
+    "timestamp": "2026-03-26 21:28:03",
+    "user": "system",
+    "src_ip": "10.10.99.10",
+    "dst_ip": "192.168.1.29",
+    "label": "DoS",
+    "severity": "MEDIUM",
+    "confidence": 54.0,
+    "model": "Random Forest",
+    "top_feature": "service"
+  },
+  {
+    "timestamp": "2026-03-26 21:28:09",
+    "user": "system",
+    "src_ip": "10.10.99.6",
+    "dst_ip": "192.168.1.15",
+    "label": "DoS",
+    "severity": "MEDIUM",
+    "confidence": 62.0,
+    "model": "Random Forest",
+    "top_feature": "service"
+  },
+  {
+    "timestamp": "2026-03-26 21:28:10",
+    "user": "system",
+    "src_ip": "10.10.99.6",
+    "dst_ip": "192.168.1.25",
+    "label": "DoS",
+    "severity": "MEDIUM",
+    "confidence": 67.0,
+    "model": "Random Forest",
+    "top_feature": "service"
+  },
+  {
+    "timestamp": "2026-03-26 21:28:13",
+    "user": "system",
+    "src_ip": "10.10.99.16",
+    "dst_ip": "192.168.1.18",
+    "label": "DoS",
+    "severity": "MEDIUM",
+    "confidence": 64.0,
+    "model": "Random Forest",
+    "top_feature": "service"
+  },
+  {
+    "timestamp": "2026-03-26 21:28:15",
+    "user": "system",
+    "src_ip": "10.10.99.12",
+    "dst_ip": "192.168.1.13",
+    "label": "DoS",
+    "severity": "MEDIUM",
+    "confidence": 68.0,
+    "model": "Random Forest",
+    "top_feature": "service"
+  },
+  {
+    "timestamp": "2026-03-26 21:28:21",
+    "user": "system",
+    "src_ip": "10.10.99.13",
+    "dst_ip": "192.168.1.29",
+    "label": "DoS",
+    "severity": "MEDIUM",
+    "confidence": 67.0,
+    "model": "Random Forest",
+    "top_feature": "service"
+  },
+  {
+    "timestamp": "2026-03-26 21:28:26",
+    "user": "system",
+    "src_ip": "10.10.99.17",
+    "dst_ip": "192.168.1.25",
+    "label": "DoS",
+    "severity": "MEDIUM",
+    "confidence": 69.0,
+    "model": "Random Forest",
+    "top_feature": "service"
+  },
+  {
+    "timestamp": "2026-03-26 21:28:28",
+    "user": "system",
+    "src_ip": "10.10.99.1",
+    "dst_ip": "192.168.1.16",
+    "label": "DoS",
+    "severity": "MEDIUM",
+    "confidence": 55.0,
+    "model": "Random Forest",
+    "top_feature": "service"
+  }
+]
